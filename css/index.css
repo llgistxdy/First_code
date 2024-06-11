@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    margin: 0 auto;
+    display: flex;
+    width: 1500px;
+    height: 830px;
+    border: 2px solid #1a1d20;
+}
+
+.left {
+    flex: 1.5;
+    height: 50%;
+    border-bottom: 2px solid #1a1d20;
+    overflow-y: scroll;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 50%;
+    border: 2px solid #1a1d20;
+    border-right: none;
+    border-top: none;
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.middle .top {
+    flex: 1;
+    border-left: 1px solid #dc3545;
+    border-right: 1px solid #dc3545;
+    border-bottom: 1px solid #dc3545;
+    overflow: scroll;
+}
+
+.middle .bottom {
+    flex: 1;
+    border-left: 1px solid #dc3545;
+    border-right: 1px solid #dc3545;
+    border-top: 1px solid #dc3545;
+    overflow-y: scroll;
+}
+
+.right {
+    flex: 1;
+    height: 100%;
+    border: 2px solid #1a1d20;
+    border-top: none;
+    overflow-y: scroll;
+}
+
+.right table {
+    margin: 1px;
+    width: 100%;
+}
+
+.right thead {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.right td,th {
+    text-align: left;
+    padding: 1px 3px;
+    border: 1px solid #ddd;
+}
+
+.table-cell-key {
+    width: 30%;
+    padding: 1px 3px;
+    height: 18px;
+    border-bottom: 1px solid #1af0c2;
+}
+
+.table-cell-value {
+    width: 70%;
+    padding: 1px 3px;
+    height: 18px;
+    border-bottom: 1px solid #1af0c2;
+}
